@@ -133,6 +133,20 @@ section {
 	color: var(--text-color);
 }
 
+.main-content p {
+	font-size: var(--p-font);
+	font-weight: 600;
+	width: 620px;
+	max-width: 100%;
+	color: var(--other-color);
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+
+.medsos {
+	margin-bottom: 40px;
+}
+
 .medsos i {
 	display: inline-flex;
 	align-items: center;
@@ -152,5 +166,23 @@ section {
 
 .medsos i:hover {
 	transform: scale(1.1);
+	box-shadow: 0 0 20px var(--main-color);
+}
+
+.btn {
+	display: inline-block;
+	padding: 11px 26px;
+	background: var(--main-color);
+	color: var(--bg-color);
+	border: 2px solid var(--main-color);
+	border-radius: 8px;
+	font-size: 15px;
+	font-weight: 600;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: transparent;
+	color: var(--text-color);
 	box-shadow: 0 0 20px var(--main-color);
 }
